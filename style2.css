@@ -1,0 +1,21 @@
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} } 
+body{
+    background-image: url('font1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    font-size: xx-large ;
+    font-family: cursive;
+}
+
+img{
+border: 5px dashed #301934;
+width: 500px;
+height: 400px;
+}
+
+}
+p{
+border: 5px dashed #301934
+}

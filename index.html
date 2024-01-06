@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Моей девушке ♥</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+form{
+    text-align: center;
+    color:#301934;
+}
+    <p><b>Здравствуй! Тут закрыто чистосердечное признание в любви и поздравление! 
+    У тебя есть пароль от него, но я немножечко помогу тебе: </b></p>
+<img src="svetlacok-removebg-preview.png">
+
+<form id="passwordForm">
+  <label for="password">Введите пароль:</label>
+  <input type="password" id="password" name="password">
+  <input type="button" value="Попробовать!" onclick="checkPassword()">
+</form>
+
+<script>
+  function checkPassword() {
+    var enteredPassword = document.getElementById("password").value;
+    var correctPassword = "светлячок"; // Заданный пароль
+
+    if (enteredPassword === correctPassword) {
+      alert("Ура, правильно! Сейчас покажу тебе подарок :3");
+      setTimeout(function() {
+        window.location.href = "11.html"; // Перенаправление на другую страницу
+      }, 2000); 
+    } else {
+      alert("Неверно, милая моя. Подсказка: светящийся жучок");
+    }
+  }
+</script>
+  </body>
+
+  </html>
